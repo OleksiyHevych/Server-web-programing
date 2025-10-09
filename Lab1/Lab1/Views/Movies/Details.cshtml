@@ -1,0 +1,52 @@
+﻿@model Lab1.Models.Movie
+
+@{
+    ViewData["Title"] = "Movie Details";
+}
+
+<h1>Movie Details</h1>
+
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(m => m.Title)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(m => m.Title)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(m => m.Genre)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(m => m.Genre)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(m => m.ReleaseDate)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(m => m.ReleaseDate)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(m => m.DurationMinutes)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(m => m.DurationMinutes)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(m => m.Description)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(m => m.Description)</dd>
+    </dl>
+
+    <h4>Actors</h4>
+    @if (Model.MovieActors != null && Model.MovieActors.Any())
+    {
+        <ul>
+            @foreach (var actor in Model.MovieActors.Select(ma => ma.Actor))
+            {
+                <li>
+                    <a asp-controller="Actors" asp-action="Details" asp-route-id="@actor.Id">
+                        @actor.FirstName @actor.LastName
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No actors assigned.</p>
+    }
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

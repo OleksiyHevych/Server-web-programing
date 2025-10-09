@@ -1,0 +1,68 @@
+﻿@model Lab1.ViewModels.MovieEditViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Movie</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Movie.Id" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Movie.Title" class="control-label"></label>
+                <input asp-for="Movie.Title" class="form-control" />
+                <span asp-validation-for="Movie.Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Movie.Genre" class="control-label"></label>
+                <input asp-for="Movie.Genre" class="form-control" />
+                <span asp-validation-for="Movie.Genre" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Movie.ReleaseDate" class="control-label"></label>
+                <input asp-for="Movie.ReleaseDate" class="form-control" type="date" />
+                <span asp-validation-for="Movie.ReleaseDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Movie.DurationMinutes" class="control-label"></label>
+                <input asp-for="Movie.DurationMinutes" class="form-control" type="number" />
+                <span asp-validation-for="Movie.DurationMinutes" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Movie.Description" class="control-label"></label>
+                <textarea asp-for="Movie.Description" class="form-control"></textarea>
+                <span asp-validation-for="Movie.Description" class="text-danger"></span>
+            </div>
+
+            <!-- Вибір акторів -->
+            <div class="form-group">
+                <label>Actors</label>
+                <select asp-for="SelectedActorIds" asp-items="Model.AllActors" class="form-control" multiple="multiple"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
