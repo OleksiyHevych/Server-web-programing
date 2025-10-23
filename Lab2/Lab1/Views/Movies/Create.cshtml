@@ -1,0 +1,76 @@
+﻿@model Lab1.ViewModels.MovieEditViewModel
+
+@{
+    ViewData["Title"] = "Add Movie";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">🎬 Add Movie</h1>
+
+    <form asp-action="Create" method="post">
+        <div class="card shadow-sm p-4">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="Movie.Title" class="form-label fw-bold"></label>
+                <input asp-for="Movie.Title" class="form-control" />
+                <span asp-validation-for="Movie.Title" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Movie.Genre" class="form-label fw-bold"></label>
+                <input asp-for="Movie.Genre" class="form-control" />
+                <span asp-validation-for="Movie.Genre" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Movie.ReleaseDate" class="form-label fw-bold"></label>
+                <input asp-for="Movie.ReleaseDate" type="date" class="form-control" />
+                <span asp-validation-for="Movie.ReleaseDate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Movie.DurationMinutes" class="form-label fw-bold"></label>
+                <input asp-for="Movie.DurationMinutes" type="number" class="form-control" />
+                <span asp-validation-for="Movie.DurationMinutes" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Movie.Description" class="form-label fw-bold"></label>
+                <textarea asp-for="Movie.Description" class="form-control"></textarea>
+                <span asp-validation-for="Movie.Description" class="text-danger"></span>
+            </div>
+
+            <!-- Вибір акторів -->
+            <div class="mb-3">
+                <label class="form-label fw-bold">Select Actors:</label>
+                <div class="d-flex flex-wrap gap-2">
+                    @foreach (var actor in Model.AllActors)
+                    {
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox"
+                                   name="SelectedActorIds"
+                                   value="@actor.Value"
+                                   id="actor_@actor.Value"
+                                   @(Model.SelectedActorIds != null && Model.SelectedActorIds.Contains(int.Parse(actor.Value)) ? "checked" : "") />
+                            <label class="form-check-label" for="actor_@actor.Value">@actor.Text</label>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="text-end mt-4">
+                <button type="submit" class="btn btn-success px-4">
+                    <i class="bi bi-save"></i> Save
+                </button>
+                <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Lab1.Models.Actor>
+
+@{
+    ViewData["Title"] = "Actors";
+}
+
+<h1 class="mb-4 text-center">🎭 All Actors</h1>
+
+<p class="text-end">
+    <a asp-action="Create" class="btn btn-primary">+ Add New Actor</a>
+</p>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center">No actors found. Add your first one!</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var actor in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">@actor.FirstName @actor.LastName</h5>
+                        <p class="text-muted">Born: @actor.BirthDate.ToShortDateString()</p>
+                        <p>@actor.Biography</p>
+                        <a asp-action="Details" asp-route-id="@actor.Id" class="btn btn-outline-primary btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@actor.Id" class="btn btn-outline-secondary btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@actor.Id" class="btn btn-outline-danger btn-sm">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
