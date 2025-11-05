@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Lab1.Models.Movie>
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<Lab1.Models.ApplicationUser> UserManager
+@inject SignInManager<Lab1.Models.ApplicationUser> SignInManager
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">🎬 Movies</h1>
+
+    @if (TempData["DraftSaved"] != null)
+    {
+        <div class="alert alert-warning mt-3 d-flex justify-content-between align-items-center">
+            <span>@TempData["DraftSaved"]</span>
+            <form asp-action="ApplyDraft" method="post" class="m-0 p-0">
+                <input type="hidden" name="vmJson" value="@TempData["MovieDraft"]" />
+                <button type="submit" class="btn btn-sm btn-primary">💾 Зберегти у базу</button>
+            </form>
+        </div>
+    }
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="text-end mb-3">
+            <a asp-action="Create" class="btn btn-success">
+                <i class="bi bi-plus-circle"></i> Add Movie
+            </a>
+        </div>
+    }
+
+    <table class="table table-striped table-bordered table-hover align-middle shadow-sm">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Release Date</th>
+                <th>Description</th>
+                <th>Actors</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Title</td>
+                    <td>@movie.Genre</td>
+                    <td>@movie.ReleaseDate.ToString("yyyy-MM-dd")</td>
+                    <td>@movie.Description</td>
+                    <td>
+                        @if (movie.MovieActors != null && movie.MovieActors.Any())
+                        {
+                            foreach (var ma in movie.MovieActors)
+                            {
+                                <span class="badge bg-info text-dark me-1">@ma.Actor.FirstName @ma.Actor.LastName</span>
+                            }
+                        }
+                        else
+                        {
+                            <span class="text-muted">No actors</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <a asp-action="Edit" asp-route-id="@movie.Id" class="btn btn-sm btn-warning me-1">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+                        }
+                        <a asp-action="Details" asp-route-id="@movie.Id" class="btn btn-sm btn-primary me-1">
+                            <i class="bi bi-info-circle"></i> Details
+                        </a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Delete" asp-route-id="@movie.Id" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i> Delete
+                            </a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\views\\actors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\views\\actors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\views\\admin\\editroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\views\\admin\\editroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|d:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\server-web-programing\\lab3\\lab1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36084ED0-C977-4139-9406-C2BF32BA3111}|Lab1\\Lab3.csproj|solutionrelative:lab1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Actors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Actors\\Index.cshtml",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Actors\\Index.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Actors\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowCkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T20:46:25.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Movies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Movies\\Edit.cshtml",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Movies\\Edit.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Movies\\Edit.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowFcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T20:22:29.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowEoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T20:18:05.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Lab1\\Controllers\\MoviesController.cs",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Lab1\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAAwBwBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:14:08.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActorsController.cs",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Controllers\\ActorsController.cs",
+              "RelativeDocumentMoniker": "Lab1\\Controllers\\ActorsController.cs",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Controllers\\ActorsController.cs",
+              "RelativeToolTip": "Lab1\\Controllers\\ActorsController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAYwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:13:52.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab1\\appsettings.json",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\appsettings.json",
+              "RelativeToolTip": "Lab1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T20:07:03.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T19:57:36.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditRoles.cshtml",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Admin\\EditRoles.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Admin\\EditRoles.cshtml",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Admin\\EditRoles.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Admin\\EditRoles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T19:57:30.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T19:57:23.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T19:57:15.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab1\\Program.cs",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Program.cs",
+              "RelativeToolTip": "Lab1\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:52:03.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Lab1\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Lab1\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:56:40.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Lab1\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Lab1\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:56:32.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Lab1\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Lab1\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:56:23.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Lab1\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\disc_f\\\u0443\u043D\u0456\u0432\u0435\u0440\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0435\u0440\u0432\u0435\u0440\u043D\u0456 web\\Server-web-programing\\Lab3\\Lab1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Lab1\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:41:14.256Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

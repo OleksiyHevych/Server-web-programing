@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="hero mb-5">
+    <h1 class="display-4 fw-bold">Welcome to Lab1 🎥</h1>
+    <p class="lead">Manage your favorite movies and actors in a modern, beautiful interface.</p>
+    <a class="btn btn-light btn-lg mt-3" asp-controller="Movies" asp-action="Index">Browse Movies</a>
+    <a class="btn btn-outline-light btn-lg mt-3" asp-controller="Actors" asp-action="Index">View Actors</a>
+</div>
+
+<div class="row text-center">
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h5 class="card-title">🎬 Movies</h5>
+                <p class="card-text">View, create, edit and delete movie records with actors.</p>
+                <a asp-controller="Movies" asp-action="Index" class="btn btn-primary">Open Movies</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h5 class="card-title">⭐ Actors</h5>
+                <p class="card-text">Manage your list of actors, their names, and roles.</p>
+                <a asp-controller="Actors" asp-action="Index" class="btn btn-primary">Open Actors</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h5 class="card-title">⚙️ About</h5>
+                <p class="card-text">This project is built with ASP.NET Core MVC and Bootstrap 5.</p>
+                <a href="https://dotnet.microsoft.com/apps/aspnet" target="_blank" class="btn btn-outline-secondary">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
