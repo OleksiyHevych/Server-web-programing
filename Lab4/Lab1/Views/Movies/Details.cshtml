@@ -1,0 +1,67 @@
+﻿@model Lab1.Models.Movie
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<Lab1.Models.ApplicationUser> UserManager
+@inject SignInManager<Lab1.Models.ApplicationUser> SignInManager
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>@Model.Title</h2>
+        <p><strong>Genre:</strong> @Model.Genre</p>
+        <p><strong>Release:</strong> @Model.ReleaseDate.ToString("yyyy-MM-dd")</p>
+        <p>@Model.Description</p>
+        <p>
+            <strong>Actors:</strong>
+            @if (Model.MovieActors != null && Model.MovieActors.Any())
+            {
+                foreach (var ma in Model.MovieActors)
+                {
+                    <span class="badge bg-info text-dark me-1">@ma.Actor.FirstName @ma.Actor.LastName</span>
+                }
+            }
+            else
+            {
+                <span class="text-muted">No actors</span>
+            }
+        </p>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-header">Чат фільму</div>
+            <div class="card-body">
+                <div id="messages" style="height:300px; overflow-y:auto; background:#f7f7f9; padding:10px; border-radius:6px;"></div>
+
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <input type="hidden" id="movieId" value="@Model.Id" />
+                    <input type="hidden" id="currentUserId" value="@UserManager.GetUserId(User)" />
+                    <input type="hidden" id="currentUserName" value="@User.Identity?.Name" />
+
+                    <div class="mt-2">
+                        <textarea id="messageInput" class="form-control" rows="2" placeholder="Ваше повідомлення..."></textarea>
+                    </div>
+                    <div class="d-flex gap-2 mt-2">
+                        <input type="file" id="fileInput" class="form-control form-control-sm" />
+                        <button id="sendBtn" class="btn btn-primary">Відправити</button>
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-warning mt-2">Ви повинні <a asp-controller="Account" asp-action="Login">увійти</a>, щоб писати в чаті</div>
+                }
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Онлайн користувачі</div>
+            <div class="card-body">
+                <ul id="onlineUsers" class="list-group list-group-flush"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script src="~/js/movie-chat.js"></script>
+}

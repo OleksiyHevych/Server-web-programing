@@ -1,0 +1,118 @@
+﻿@model IEnumerable<Lab1.Models.Movie>
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<Lab1.Models.ApplicationUser> UserManager
+@inject SignInManager<Lab1.Models.ApplicationUser> SignInManager
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">🎬 Movies</h1>
+
+    @* Повідомлення про чернетку та лічильник *@
+    @if (ViewBag.ActiveDraftJson != null)
+    {
+        <div class="alert alert-warning d-flex justify-content-between align-items-center" id="draft-alert">
+            <div>
+                У вас є незбережена чернетка. Час до закінчення: <span id="draft-countdown">30</span> с.
+            </div>
+            <div class="d-flex gap-2">
+                <form asp-action="ApplyDraft" method="post" class="m-0">
+                    <button type="submit" class="btn btn-sm btn-primary">💾 Застосувати у базу</button>
+                </form>
+                <button id="discardDraftBtn" class="btn btn-sm btn-secondary">✖ Discard</button>
+            </div>
+        </div>
+
+        <script>
+            // отримуємо момент expiry з server (якщо був переданий)
+            (function() {
+                var expiryIso = '@(ViewBag.ActiveDraftExpiryUtc ?? "")';
+                if (!expiryIso) return;
+                var expiry = new Date(expiryIso);
+                var countdownEl = document.getElementById("draft-countdown");
+                var discardBtn = document.getElementById("discardDraftBtn");
+
+                function tick() {
+                    var now = new Date();
+                    var secs = Math.max(0, Math.round((expiry - now) / 1000));
+                    countdownEl.textContent = secs;
+                    if (secs <= 0) {
+                        // очищаємо інтерфейс — після рестарту сторінки сесія вже не міститиме draft (сервер очищає при expiry)
+                        var alert = document.getElementById("draft-alert");
+                        if (alert) alert.remove();
+                        clearInterval(iv);
+                        // також можна зробити запит на сервер щоб явно очистити session (необов'язково)
+                        fetch('@Url.Action("Index", "Movies")', { method: 'GET' });
+                    }
+                }
+                var iv = setInterval(tick, 500);
+                tick();
+
+                discardBtn?.addEventListener('click', function() {
+                    fetch('@Url.Action("Index", "Movies")', { method: 'GET' }).then(()=> location.reload());
+                });
+            })();
+        </script>
+    }
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="text-end mb-3">
+            <a asp-action="Create" class="btn btn-success">
+                <i class="bi bi-plus-circle"></i> Add Movie
+            </a>
+        </div>
+    }
+
+    <table class="table table-striped table-bordered table-hover align-middle shadow-sm">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Release Date</th>
+                <th>Description</th>
+                <th>Actors</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Title</td>
+                    <td>@movie.Genre</td>
+                    <td>@movie.ReleaseDate.ToString("yyyy-MM-dd")</td>
+                    <td>@movie.Description</td>
+                    <td>
+                        @if (movie.MovieActors != null && movie.MovieActors.Any())
+                        {
+                            foreach (var ma in movie.MovieActors)
+                            {
+                                <span class="badge bg-info text-dark me-1">@ma.Actor.FirstName @ma.Actor.LastName</span>
+                            }
+                        }
+                        else
+                        {
+                            <span class="text-muted">No actors</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <a asp-action="Edit" asp-route-id="@movie.Id" class="btn btn-sm btn-warning me-1">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+                        }
+                        <a asp-action="Details" asp-route-id="@movie.Id" class="btn btn-sm btn-primary me-1">
+                            <i class="bi bi-info-circle"></i> Details
+                        </a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Delete" asp-route-id="@movie.Id" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i> Delete
+                            </a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

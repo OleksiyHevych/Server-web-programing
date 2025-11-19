@@ -1,0 +1,31 @@
+﻿@model Lab1.Controllers.EditRolesViewModel
+
+@{
+    ViewData["Title"] = "Edit Roles";
+}
+
+<h2>Edit Roles for @Model.UserName</h2>
+
+<form asp-action="EditRoles" method="post">
+    <input type="hidden" asp-for="UserId" />
+
+    <table class="table">
+        <thead>
+            <tr><th>Role</th><th>Assigned</th></tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Roles.Count; i++)
+            {
+                <tr>
+                    <td>@Model.Roles[i].RoleName</td>
+                    <td>
+                        <input asp-for="Roles[i].Selected" />
+                        <input type="hidden" asp-for="Roles[i].RoleName" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
