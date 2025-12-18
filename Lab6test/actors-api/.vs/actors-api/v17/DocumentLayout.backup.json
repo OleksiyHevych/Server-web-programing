@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Test\\Lab6test\\actors-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\services\\movieactorslookup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\services\\movieactorslookup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\actors-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\actors-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\data\\actorscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\data\\actorscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|d:\\test\\lab6test\\actors-api\\actors-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71D98E8D-F658-44CA-8B07-9E2217DECF19}|actors-api\\actors-api.csproj|solutionrelative:actors-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieActorsLookup.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Services\\MovieActorsLookup.cs",
+              "RelativeDocumentMoniker": "actors-api\\Services\\MovieActorsLookup.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Services\\MovieActorsLookup.cs",
+              "RelativeToolTip": "actors-api\\Services\\MovieActorsLookup.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T12:20:48.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "actors-api\\Repositories\\IRepository.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "actors-api\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T10:51:39.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\appsettings.json",
+              "RelativeDocumentMoniker": "actors-api\\appsettings.json",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\appsettings.json",
+              "RelativeToolTip": "actors-api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T10:51:16.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActorsController.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Controllers\\ActorsController.cs",
+              "RelativeDocumentMoniker": "actors-api\\Controllers\\ActorsController.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Controllers\\ActorsController.cs",
+              "RelativeToolTip": "actors-api\\Controllers\\ActorsController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:18:38.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "actors-api\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Repositories\\Repository.cs",
+              "RelativeToolTip": "actors-api\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:18:26.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Program.cs",
+              "RelativeDocumentMoniker": "actors-api\\Program.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Program.cs*",
+              "RelativeToolTip": "actors-api\\Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:13:51.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "actors-api.csproj",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\actors-api.csproj",
+              "RelativeDocumentMoniker": "actors-api\\actors-api.csproj",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\actors-api.csproj",
+              "RelativeToolTip": "actors-api\\actors-api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T11:22:16.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "actors-api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "actors-api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T10:51:25.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActorsContext.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Data\\ActorsContext.cs",
+              "RelativeDocumentMoniker": "actors-api\\Data\\ActorsContext.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\actors-api\\actors-api\\Data\\ActorsContext.cs",
+              "RelativeToolTip": "actors-api\\Data\\ActorsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:16:40.729Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Test\\Lab6test\\movie-actors-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\controllers\\movieactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\controllers\\movieactorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\dtos\\movieactordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\dtos\\movieactordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\movie-actors-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\movie-actors-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\repositories\\movieactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\repositories\\movieactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\repositories\\imovieactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\repositories\\imovieactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\dtos\\createmovieactordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\dtos\\createmovieactordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\dtos\\actorinmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\dtos\\actorinmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\services\\moviesclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\services\\moviesclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\services\\actorsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\services\\actorsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\services\\lookupclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\services\\lookupclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\models\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\models\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|d:\\test\\lab6test\\movie-actors-api\\movie-actors-api\\services\\movieactorsseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4083FE-75C9-474B-A0AD-14BC9B730938}|movie-actors-api\\movie-actors-api.csproj|solutionrelative:movie-actors-api\\services\\movieactorsseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "movie-actors-api.http",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\movie-actors-api.http",
+              "RelativeDocumentMoniker": "movie-actors-api\\movie-actors-api.http",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\movie-actors-api.http",
+              "RelativeToolTip": "movie-actors-api\\movie-actors-api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-17T14:16:01.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieActorRepository.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Repositories\\MovieActorRepository.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Repositories\\MovieActorRepository.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Repositories\\MovieActorRepository.cs",
+              "RelativeToolTip": "movie-actors-api\\Repositories\\MovieActorRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:42:44.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Program.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Program.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Program.cs",
+              "RelativeToolTip": "movie-actors-api\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:45:15.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieActorsController.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Controllers\\MovieActorsController.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Controllers\\MovieActorsController.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Controllers\\MovieActorsController.cs",
+              "RelativeToolTip": "movie-actors-api\\Controllers\\MovieActorsController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:43:40.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieActorDto.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\DTOs\\MovieActorDto.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\DTOs\\MovieActorDto.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\DTOs\\MovieActorDto.cs",
+              "RelativeToolTip": "movie-actors-api\\DTOs\\MovieActorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:38:15.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMovieActorRepository.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Repositories\\IMovieActorRepository.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Repositories\\IMovieActorRepository.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Repositories\\IMovieActorRepository.cs",
+              "RelativeToolTip": "movie-actors-api\\Repositories\\IMovieActorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:44:30.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateMovieActorDto.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\DTOs\\CreateMovieActorDto.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\DTOs\\CreateMovieActorDto.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\DTOs\\CreateMovieActorDto.cs",
+              "RelativeToolTip": "movie-actors-api\\DTOs\\CreateMovieActorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:40:05.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActorInMovieDto.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\DTOs\\ActorInMovieDto.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\DTOs\\ActorInMovieDto.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\DTOs\\ActorInMovieDto.cs",
+              "RelativeToolTip": "movie-actors-api\\DTOs\\ActorInMovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T18:25:00.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MoviesClient.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Services\\MoviesClient.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Services\\MoviesClient.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Services\\MoviesClient.cs",
+              "RelativeToolTip": "movie-actors-api\\Services\\MoviesClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T13:27:55.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ActorsClient.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Services\\ActorsClient.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Services\\ActorsClient.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Services\\ActorsClient.cs",
+              "RelativeToolTip": "movie-actors-api\\Services\\ActorsClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T13:26:03.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LookupClient.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Services\\LookupClient.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Services\\LookupClient.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Services\\LookupClient.cs",
+              "RelativeToolTip": "movie-actors-api\\Services\\LookupClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:41:09.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieActor.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Models\\MovieActor.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Models\\MovieActor.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Models\\MovieActor.cs",
+              "RelativeToolTip": "movie-actors-api\\Models\\MovieActor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T13:34:40.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\DTOs\\MovieDto.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\DTOs\\MovieDto.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\DTOs\\MovieDto.cs",
+              "RelativeToolTip": "movie-actors-api\\DTOs\\MovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:44:32.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MovieActorsSeeder.cs",
+              "DocumentMoniker": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Services\\MovieActorsSeeder.cs",
+              "RelativeDocumentMoniker": "movie-actors-api\\Services\\MovieActorsSeeder.cs",
+              "ToolTip": "D:\\Test\\Lab6test\\movie-actors-api\\movie-actors-api\\Services\\MovieActorsSeeder.cs",
+              "RelativeToolTip": "movie-actors-api\\Services\\MovieActorsSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:43:18.732Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
